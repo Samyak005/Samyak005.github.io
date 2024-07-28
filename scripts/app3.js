@@ -113,7 +113,7 @@ async function renderThirdChart() {
     renderLegend(svg, getContinents(), width, myColor);
     
     const annotation_greater_than_threshold = ["UK", "Singapore", "USA"]
-    const annotation_lesser_than_threshold = ["Brazil", "Georgia", "Moldova"]
+    const annotation_lesser_than_threshold = ["Brazil", "Georgia", "Peru"]
     annotationCall(annotation_greater_than_threshold)
     
     function annotationCall(countryList) {
