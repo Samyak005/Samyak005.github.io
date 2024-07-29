@@ -209,7 +209,7 @@ async function renderSecondChart() {
 }
 
 function secondChartTooltipHTML(object) {
-    return "<div>" + object.country + "</div><div>" + Math.round(object.deaths_per_million_pop) + " deaths/million</div><div>$" + Math.round(object.gdp_million) + "</div>";
+    return "<div>" + object.country + "</div><div>" + Math.round(object.deaths_per_million_pop) + " deaths/million</div><div>$" + Math.round(object.gdp_million) + " million</div>";
 }
 
 function renderSecondChartAnnotations(d, x, y, margin) {
